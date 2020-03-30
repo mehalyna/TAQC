@@ -1,0 +1,5 @@
+r1 = ("Beautiful is better than ugly\nExplicit is better than implicit\nSimple is better than complex\nComplex is better than complicated\nReadability counts")
+r2 = r1.lower()
+r = r1.upper()
+print (r2)
+print (r)
