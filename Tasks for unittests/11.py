@@ -1,7 +1,7 @@
 a = int(input("Input number: "))
 
 def is_repdigit(a):
-    if a == 0:
+    if a == 0:  # and what about negative number?
         return True
     b = str(a)
     for i in range(1, len(b)):
